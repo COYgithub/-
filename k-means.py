@@ -73,4 +73,4 @@ if __name__ == '__main__':
         #  记号形状       颜色      点的大小      设置标签
         for j in range(len(centroids)):
             plt.scatter(centroids[j][0], centroids[j][1], marker='x', color='red', s=50, label='质心')
-            plt.show
+    plt.show()
