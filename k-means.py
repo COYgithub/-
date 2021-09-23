@@ -71,6 +71,6 @@ if __name__ == '__main__':
     for i in range(len(dataset)):
         plt.scatter(dataset[i][0], dataset[i][1], marker='o', color='green', s=40, label='原始点')
         #  记号形状       颜色      点的大小      设置标签
-        for j in range(len(centroids)):
-            plt.scatter(centroids[j][0], centroids[j][1], marker='x', color='red', s=50, label='质心')
+    for j in range(len(centroids)):
+        plt.scatter(centroids[j][0], centroids[j][1], marker='x', color='red', s=50, label='质心')
     plt.show()
